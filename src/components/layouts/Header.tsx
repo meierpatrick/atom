@@ -46,8 +46,8 @@ const StyledLogo = styled(Text)`
   }
   @media ${STYLE.media.mobile} {
     img {
-      width: 104px;
-      height: 26px;
+      width: 70px;
+      height: 50px;
     }
   }
 `

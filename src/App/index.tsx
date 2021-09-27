@@ -48,7 +48,26 @@ const App = (): ReactElement => {
       <BrowserRouter>
         {initComplete && (
           <ParticlesBG>
-            <Particles />
+            <Particles
+              params={{
+                particles: {
+                  number: {
+                    value: 50,
+                  },
+                  size: {
+                    value: 5,
+                  },
+                },
+                interactivity: {
+                  events: {
+                    onhover: {
+                      enable: true,
+                      mode: 'repulse',
+                    },
+                  },
+                },
+              }}
+            />
             <StyledContainer>
               <Header />
               {routes()}
