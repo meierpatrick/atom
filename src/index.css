@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url(./fonts/Gotham-Book.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(./fonts/Gotham-Medium.otf);
+  font-weight: 500;
+}
+
+html,
+body,
+* {
+  font-family: Gotham, sans-serif !important;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #6757d4 0%, #190a85 100%) !important;
+}
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+a {
+  text-decoration: none;
+}
